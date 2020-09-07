@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-us">
   <head>
-    <title>博客demo // 我的个人博客</title>
+    <title>工作笔记 // 我的个人博客</title>
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.74.3" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,11 +11,21 @@
 
     
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="博客demo"/>
-<meta name="twitter:description" content="标题  摘要  志当存高远，天高任鸟飞。 "/>
+<meta name="twitter:title" content="工作笔记"/>
+<meta name="twitter:description" content="CountDownLatch（倒计时计数器）使用说明 publicvoidcountDown()  递减锁存器的计数，如果计数到达零，则释放所有等待的线程。如果当前计数大于零， 则将计数减少。如果新的计数为零，出于线程调度目的，将重新启用所有的等待线程。 如果当前计数等于零，则不发生任何操作。   SpringCloud底层服务之间是怎么相互调用的？ 详细链接
+ 图片上传问题之图片大小限制 详细链接
+ 防止表单重复提交的4种方法 详细链接
+ ExecutorService中submit和execute的区别 详细链接
+ Java后台解决跨域问题  JavaScript出于安全方面的考虑，不允许跨域调用其他页面的对象。那什么是跨域呢，简单 地理解就是因为JavaScript同源策略的限制，a.com域名下的js无法操作b.com或是c.a.com 域名下的对象。 当协议、子域名、主域名、端口号中任意一个不相同时，都算作不同域。不同域之间相互请 求资源，就算作“跨域”。   List遍历方式及其性能表现分析：  ArrayList: 当size&lt;100万时，三种方式性能差别不大； 当size&gt;=100万时，for&gt;iterator&gt;=foreach. LinkedList: 当size小于1万时，三种方式性能差别不大； 当size&gt;=1万时，iterator&gt;=foreach&gt;for.  由于foreach底层也是通过iterator来迭代，因此foreach的性能与iterator接近。  详细链接
+ 常用的微服务间的调用方式  RPC: Rest(Http): ribbon订单调用商品服务 自定义负载均衡策略： feign方式实现服务间的调用 Feign核心源码解读和服务间的调用方式ribbon、feign选择  "/>
 
-    <meta property="og:title" content="博客demo" />
-<meta property="og:description" content="标题  摘要  志当存高远，天高任鸟飞。 " />
+    <meta property="og:title" content="工作笔记" />
+<meta property="og:description" content="CountDownLatch（倒计时计数器）使用说明 publicvoidcountDown()  递减锁存器的计数，如果计数到达零，则释放所有等待的线程。如果当前计数大于零， 则将计数减少。如果新的计数为零，出于线程调度目的，将重新启用所有的等待线程。 如果当前计数等于零，则不发生任何操作。   SpringCloud底层服务之间是怎么相互调用的？ 详细链接
+ 图片上传问题之图片大小限制 详细链接
+ 防止表单重复提交的4种方法 详细链接
+ ExecutorService中submit和execute的区别 详细链接
+ Java后台解决跨域问题  JavaScript出于安全方面的考虑，不允许跨域调用其他页面的对象。那什么是跨域呢，简单 地理解就是因为JavaScript同源策略的限制，a.com域名下的js无法操作b.com或是c.a.com 域名下的对象。 当协议、子域名、主域名、端口号中任意一个不相同时，都算作不同域。不同域之间相互请 求资源，就算作“跨域”。   List遍历方式及其性能表现分析：  ArrayList: 当size&lt;100万时，三种方式性能差别不大； 当size&gt;=100万时，for&gt;iterator&gt;=foreach. LinkedList: 当size小于1万时，三种方式性能差别不大； 当size&gt;=1万时，iterator&gt;=foreach&gt;for.  由于foreach底层也是通过iterator来迭代，因此foreach的性能与iterator接近。  详细链接
+ 常用的微服务间的调用方式  RPC: Rest(Http): ribbon订单调用商品服务 自定义负载均衡策略： feign方式实现服务间的调用 Feign核心源码解读和服务间的调用方式ribbon、feign选择  " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://2425691371.github.io/post/blog/" />
 <meta property="article:published_time" content="2020-09-04T17:30:13+08:00" />
@@ -27,7 +37,7 @@
     <header class="app-header">
       <a href="https://2425691371.github.io/"><img class="app-header-avatar" src="/timg.ico" alt="Devotion" /></a>
       <h1>我的个人博客</h1>
-      <p>该作者很懒，什么简介都没写</p>
+      <p>志当存高远，天高任鸟飞。</p>
       <div class="app-header-social">
         
           <a target="_blank" href="https://github.com/2425691371/" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
@@ -47,12 +57,12 @@
         
       </div>
     </header>
-    <main class="app-container">
-	<iframe style="float: right" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=1&id=21506&auto=1&height=430"></iframe>
+	<iframe style="float: right" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=1&id=16942&auto=1&height=430"></iframe>
+	<main class="app-container">
       
   <article class="post">
     <header class="post-header">
-      <h1 class ="post-title">博客demo</h1>
+      <h1 class ="post-title">工作笔记</h1>
       <div class="post-meta">
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
@@ -67,14 +77,62 @@
   <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
 </svg>
           1 min read
-        </div></div>
+        </div><div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+          <a class="tag" href="https://2425691371.github.io/tags/blog/">blog</a><a class="tag" href="https://2425691371.github.io/tags/java/">Java</a><a class="tag" href="https://2425691371.github.io/tags/springcloud/">SpringCloud</a></div></div>
     </header>
     <div class="post-content">
-      <h1 id="标题">标题</h1>
+      <h3 id="countdownlatch倒计时计数器使用说明-publicvoidcountdown">CountDownLatch（倒计时计数器）使用说明 publicvoidcountDown()</h3>
+<pre><code>    递减锁存器的计数，如果计数到达零，则释放所有等待的线程。如果当前计数大于零，
+则将计数减少。如果新的计数为零，出于线程调度目的，将重新启用所有的等待线程。
+    如果当前计数等于零，则不发生任何操作。
+</code></pre>
 <hr>
-<h2 id="摘要">摘要</h2>
+<h3 id="springcloud底层服务之间是怎么相互调用的">SpringCloud底层服务之间是怎么相互调用的？</h3>
+<p><a href="https://blog.csdn.net/yeyazhishang/article/details/84344402">详细链接</a></p>
 <hr>
-<h3 id="志当存高远天高任鸟飞">志当存高远，天高任鸟飞。</h3>
+<h3 id="图片上传问题之图片大小限制">图片上传问题之图片大小限制</h3>
+<p><a href="https://www.cnblogs.com/chaiming520/p/10942694.html">详细链接</a></p>
+<hr>
+<h3 id="防止表单重复提交的4种方法">防止表单重复提交的4种方法</h3>
+<p><a href="https://www.cnblogs.com/huanghuizhou/p/9153837.html">详细链接</a></p>
+<hr>
+<h3 id="executorservice中submit和execute的区别">ExecutorService中submit和execute的区别</h3>
+<p><a href="https://www.cnblogs.com/wanqieddy/p/3853863.html">详细链接</a></p>
+<hr>
+<h3 id="java后台解决跨域问题">Java后台解决跨域问题</h3>
+<pre><code>    JavaScript出于安全方面的考虑，不允许跨域调用其他页面的对象。那什么是跨域呢，简单
+地理解就是因为JavaScript同源策略的限制，a.com域名下的js无法操作b.com或是c.a.com
+域名下的对象。
+    当协议、子域名、主域名、端口号中任意一个不相同时，都算作不同域。不同域之间相互请
+求资源，就算作“跨域”。
+</code></pre>
+<hr>
+<h3 id="list遍历方式及其性能表现分析">List遍历方式及其性能表现分析：</h3>
+<ul>
+<li>ArrayList:
+当size&lt;100万时，三种方式性能差别不大；
+当size&gt;=100万时，for&gt;iterator&gt;=foreach.</li>
+<li>LinkedList:
+当size小于1万时，三种方式性能差别不大；
+当size&gt;=1万时，iterator&gt;=foreach&gt;for.</li>
+</ul>
+<pre><code>由于foreach底层也是通过iterator来迭代，因此foreach的性能与iterator接近。
+</code></pre>
+<p><a href="https://baijiahao.baidu.com/s?id=1616093811481309638&amp;wfr=spider&amp;for=pc">详细链接</a></p>
+<hr>
+<h3 id="常用的微服务间的调用方式">常用的微服务间的调用方式</h3>
+<ul>
+<li>RPC:</li>
+<li>Rest(Http):</li>
+<li>ribbon订单调用商品服务</li>
+<li>自定义负载均衡策略：</li>
+<li>feign方式实现服务间的调用</li>
+<li>Feign核心源码解读和服务间的调用方式ribbon、feign选择</li>
+</ul>
 
     </div>
     <div class="post-footer">

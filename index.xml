@@ -12,12 +12,17 @@
     
     
     <item>
-      <title>博客demo</title>
+      <title>工作笔记</title>
       <link>https://2425691371.github.io/post/blog/</link>
       <pubDate>Fri, 04 Sep 2020 17:30:13 +0800</pubDate>
       
       <guid>https://2425691371.github.io/post/blog/</guid>
-      <description>标题  摘要  志当存高远，天高任鸟飞。 </description>
+      <description>CountDownLatch（倒计时计数器）使用说明 publicvoidcountDown()  递减锁存器的计数，如果计数到达零，则释放所有等待的线程。如果当前计数大于零， 则将计数减少。如果新的计数为零，出于线程调度目的，将重新启用所有的等待线程。 如果当前计数等于零，则不发生任何操作。   SpringCloud底层服务之间是怎么相互调用的？ 详细链接
+ 图片上传问题之图片大小限制 详细链接
+ 防止表单重复提交的4种方法 详细链接
+ ExecutorService中submit和execute的区别 详细链接
+ Java后台解决跨域问题  JavaScript出于安全方面的考虑，不允许跨域调用其他页面的对象。那什么是跨域呢，简单 地理解就是因为JavaScript同源策略的限制，a.com域名下的js无法操作b.com或是c.a.com 域名下的对象。 当协议、子域名、主域名、端口号中任意一个不相同时，都算作不同域。不同域之间相互请 求资源，就算作“跨域”。   List遍历方式及其性能表现分析：  ArrayList: 当size&amp;lt;100万时，三种方式性能差别不大； 当size&amp;gt;=100万时，for&amp;gt;iterator&amp;gt;=foreach. LinkedList: 当size小于1万时，三种方式性能差别不大； 当size&amp;gt;=1万时，iterator&amp;gt;=foreach&amp;gt;for.  由于foreach底层也是通过iterator来迭代，因此foreach的性能与iterator接近。  详细链接
+ 常用的微服务间的调用方式  RPC: Rest(Http): ribbon订单调用商品服务 自定义负载均衡策略： feign方式实现服务间的调用 Feign核心源码解读和服务间的调用方式ribbon、feign选择  </description>
     </item>
     
   </channel>
