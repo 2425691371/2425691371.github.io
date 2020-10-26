@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://2425691371.github.io/post/</loc>
+    <lastmod>2020-09-07T21:48:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2425691371.github.io/post/resume/</loc>
+    <lastmod>2020-09-07T21:48:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2425691371.github.io/</loc>
+    <lastmod>2020-09-07T21:48:25+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://2425691371.github.io/tags/blog/</loc>
     <lastmod>2020-09-04T17:30:13+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://2425691371.github.io/tags/java/</loc>
-    <lastmod>2020-09-04T17:30:13+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2425691371.github.io/post/</loc>
     <lastmod>2020-09-04T17:30:13+08:00</lastmod>
   </url>
   
@@ -29,11 +39,6 @@
   
   <url>
     <loc>https://2425691371.github.io/post/blog/</loc>
-    <lastmod>2020-09-04T17:30:13+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://2425691371.github.io/</loc>
     <lastmod>2020-09-04T17:30:13+08:00</lastmod>
   </url>
   
